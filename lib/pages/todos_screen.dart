@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:new_navigation/compiled_app/models/change_notifiers/todos_notifier.dart';
-import 'package:new_navigation/compiled_app/models/todos.dart';
 import 'package:provider/provider.dart';
+
+import '../models/change_notifiers/todos_notifier.dart';
+import '../models/todos.dart';
 
 class TodosScreen extends StatefulWidget {
   const TodosScreen({Key? key}) : super(key: key);

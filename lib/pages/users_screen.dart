@@ -5,7 +5,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-import 'models/users.dart';
+import '/models/users.dart';
 import 'user_info_location.dart';
 
 class UsersScreen extends StatefulWidget {

@@ -2,11 +2,11 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:new_navigation/compiled_app/users_screen.dart';
+import 'package:new_navigation/pages/users_screen.dart';
 import 'package:provider/provider.dart';
 
+import '/models/change_notifiers/todos_notifier.dart';
 import 'albums_screen.dart';
-import 'models/change_notifiers/todos_notifier.dart';
 import 'posts_screen.dart';
 import 'todos_screen.dart';
 

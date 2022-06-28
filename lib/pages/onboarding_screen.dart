@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:new_navigation/compiled_app/home_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'models/onboarding_data.dart';
+import '/models/onboarding_data.dart';
+import '../models/onboarding_data.dart';
+import 'home_page.dart';
 
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({Key? key}) : super(key: key);

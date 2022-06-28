@@ -5,8 +5,8 @@ import 'package:expandable/expandable.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
+import '/models/posts.dart';
 import 'comments_screen.dart';
-import 'models/posts.dart';
 
 class PostsScreen extends StatefulWidget {
   const PostsScreen({

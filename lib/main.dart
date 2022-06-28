@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:new_navigation/compiled_app/home_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'compiled_app/onboarding_screen.dart';
+import 'pages/home_page.dart';
+import 'pages/onboarding_screen.dart';
 
 void main() {
   runApp(App());

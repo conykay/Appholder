@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:new_navigation/compiled_app/models/address.dart';
-import 'package:new_navigation/compiled_app/models/users.dart';
+
+import '../models/address.dart';
+import '../models/users.dart';
 
 class UserLocationScreen extends StatefulWidget {
   const UserLocationScreen({Key? key, required this.user}) : super(key: key);
